@@ -3,3 +3,9 @@ PyPDF2
 pandas
 python-docx
 word2number
+
+
+
+
+
+
