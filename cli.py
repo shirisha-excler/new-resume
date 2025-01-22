@@ -5,8 +5,17 @@ import pandas as pd
 from io import BytesIO
 from PyPDF2 import PdfReader
 from docx import Document
+
 import spacy
 from spacy.cli import download
+
+# Check if the model is available and download it if necessary
+try:
+    nlp = spacy.load("en_core_web_sm")
+except OSError:
+    print("Model not found. Downloading...")
+    download("en_core_web_sm")  # Download the model if not found
+    nlp = spacy.load("en_core_web_sm")  # Load the model after download
 
 
 
