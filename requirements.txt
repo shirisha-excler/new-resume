@@ -5,3 +5,5 @@ pandas
 python-docx
 word2number
 en-core-web-sm
+spacy.cli
+
