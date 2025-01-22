@@ -1,8 +1,9 @@
-PyPDF2==2.0.0
+pdfplumber
 spacy
 pandas
 python-docx
 word2number
+
 
 
 
