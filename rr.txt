@@ -1,5 +1,5 @@
+PyPDF2==2.0.0
 spacy
-PyPDF2
 pandas
 python-docx
 word2number
